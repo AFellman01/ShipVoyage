@@ -1,0 +1,22 @@
+body {
+	border: solid black 2px;
+     width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+}
+
+}	
+
+#logo {
+	text-align: inline;
+	height: 180px;
+
+}
+
+h1 {
+	display: inline;
+	font-size: 50px;
+	
+}
+
+
