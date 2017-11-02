@@ -9,21 +9,21 @@
 
            $('.post').on('click', function (){
 var tracker = $('#track').val()
-location.href = ("https://tools.usps.com/go/TrackConfirmAction?tLabels=" + tracker )
-console.log(tracker)
+// location.href = ("https://tools.usps.com/go/TrackConfirmAction?tLabels=" + tracker )
+window.open("https://tools.usps.com/go/TrackConfirmAction?tLabels=" + tracker, '_blank');
 
            });
 
 
            $('.parcel').on('click', function (){
              var tracker = $('#track').val()
-location.href = ("https://wwwapps.ups.com/WebTracking/track?track=yes&trackNums=" + tracker)
+window.open("https://wwwapps.ups.com/WebTracking/track?track=yes&trackNums=" + tracker, '_blank')
 
   });
 
 
           $('.fedex').on('click', function (){
             var tracker = $('#track').val()
-location.href = ("https://www.fedex.com/apps/fedextrack/?tracknumbers" + tracker)
+window.open("https://www.fedex.com/apps/fedextrack/?tracknumbers" + tracker), '_blank'
   });
 });
