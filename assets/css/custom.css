@@ -2,31 +2,45 @@ body {
      width: 800px;
      margin: 0 auto;
      padding: 10px;
+     background-color: #7083a0;
+     text-align: center;
 }
 
+#picture {
+display: inline;
+float: left;
+text-align: center;
 }
 
 #logo {
 	height: 180px;
-	display: middle;
 
 }
 
 h1 {
 	display: inline;
 	font-size: 50px;
+  font-family: 'Alfa Slab One', cursive;
+  float:top;
 
-=======
-	font-family: 'Alfa Slab One', cursive;
-}
+  }
+  h2 {
+display: inline;
+font-size: 27px;
+font-family: 'Slabo 27px', serif;
+  }
 
 .jumbotron {
 	height: 300px;
 	width: 100%;
-  	text-align: center;
+  background-color: #94b2e0;
 }
 
 .new-tab-opener
 {
     display: none;
+}
+
+input{
+  width: 200px;
 }
