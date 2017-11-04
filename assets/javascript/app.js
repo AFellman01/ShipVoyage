@@ -28,10 +28,10 @@ $(document).ready(function() {
         } else if (tracknum.length === 12) {
         window.open("https://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=" + tracknum, "_blank")
         // 12 digits to FedEx
-      } else if (tracknum[0] === "9" && tracknum.length === 20) {
+      } else if (tracknum[0] === "9" && tracknum.length === 22) {
         window.open("https://tools.usps.com/go/TrackConfirmAction?tLabels=" + tracknum, "_blank")
         // Untested: 20 digits, starting with 9, goes to USPS again.
-      } else if (tracknum.length != 10 && tracknum.length != 12 && tracknum.length != 20) {
+      } else if (tracknum.length != 10 && tracknum.length != 12 && tracknum.length != 22) {
         alert("Please enter a valid Tracking Number");
         // If all else fails, this alrt will be displayed.
       } else {
