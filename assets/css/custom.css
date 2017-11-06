@@ -10,17 +10,29 @@ body {
   width: 100%;
   background-color: #94b2e0;
 }
+.basicinfo{
+  background-color: #94b2e0;
+}
 .img {
     display: center;
 }
+p {
+  background-color: #94b2e0;
+  height:50px;
+  margin-top: -50px;
+  text-align: center;
+   font-family: 'Passion One', cursive;
+   font-size: 20px;
+}
 #logo {
-    height: 200px;
-    text-align: center;
+  height: 200px;
+  text-align: center;
   animation-duration: 2s;
   animation-delay: 2s;
  }
 h1 {
     text-align: center;
+    text
     font-family: 'Alfa Slab One', cursive;
     margin: 1px;
 }
@@ -43,6 +55,7 @@ form {
     display: center;
 }
 #TN1 {
+  margin-top: 20px;
     text-align:center;
     height: 20px;
 }
