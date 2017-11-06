@@ -3,37 +3,44 @@ body {
      margin: 0 auto;
      padding: 10px;
      background-color: #7083a0;
-     text-align: center;
-}
-
-#picture {
-display: inline;
-float: left;
-text-align: center;
-}
-
-#logo {
-	height: 180px;
-
-}
-
-h1 {
-	display: inline;font-size: 50px;
-font-family: 'Alfa Slab One', cursive;
-float:top;
-}
-
-h2 {
-  display: inline;
-  font-size: 27px;
-  font-family: 'Slabo 27px', serif;
+     display: center;
+     
 }
 
 .jumbotron {
-  height: 300px;
+  height: 320px;
   width: 100%;
-  background-color: #94b2e0;
+  background-color: #94b2e0;  
 }
+
+.img {
+	display: center;
+
+}
+
+#logo {
+	height: 200px;
+	text-align: center;
+  animation-duration: 2s;
+  animation-delay: 2s;
+
+ }
+
+h1 {
+	text-align: center;
+	font-family: 'Alfa Slab One', cursive;
+	margin: 1px;
+
+}
+
+
+h2 {
+  font-size: 27px;
+ font-family: 'Passion One', cursive;
+  text-align: center;
+ 
+}
+
 
 .new-tab-opener {
   display: none;
@@ -41,4 +48,49 @@ h2 {
 
 input {
   width: 200px;
+}
+
+form {
+	background-color: #94b2e0;
+	height: 200px;
+	width: 100%;
+}
+#track {
+	display: center;
+}
+#TN1 {
+	text-align:center;
+	height: 100px;
+}
+
+.company{
+border-top-left-radius: 50% 50%;
+border-top-right-radius: 50% 50%;
+border-bottom-right-radius: 50% 50%;
+border-bottom-left-radius: 50% 50%;
+height: 170px;
+width: 170px;
+}
+
+
+#image1{
+	
+	display: inline-block;
+	float: left;
+	width: 170px;
+}
+#image2 {
+	
+	float: center;
+	width: 170px;
+	height: 170px;
+}
+#image3 {
+	
+	float: right;
+	width: 170px;
+}
+#image4 {
+	
+
 }
