@@ -1,85 +1,79 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
   <meta charset="UTF-8">
-<title>ShipVoyage</title>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>ShipVoyage</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
   <link rel="stylesheet" href="assets/css/custom.css" type="text/css">
   <link href="assets/css/animate.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Passion+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Passion+One" rel="stylesheet">
 
-  </head>
-  <body>
+</head>
+
+<body>
   <div class="jumbotron jumbotron-fluid">
-  <div class="picture">
-     <div id="logo" div class="animated fadeIn">
-      <img src="assets/images/voyage.png">
+    <div class="picture">
+      <div id="logo" div class="animated fadeIn">
+        <img src="assets/images/voyage.png">
 
         <h1>ShipVoyage</h1>
-        </div>
-        </div>
+      </div>
+    </div>
 
-  <h2>Getting you what you need, when you need it.</h2>
-</div>
-
-<div class="form">
-  <form id="TN1">
-    <input type="text" placeholder="Enter Your Tracking Number" id="track" >
-    <button type="button" class="post">Submit</button>
-  </form>
-</div>
-<div id="Info">
-  <p>The code as written accepts USPS numbers, DHL tracking numbers, UPS tracking numbers, and FedEx numbers. USPS numbers come in two formats. The first is thirteen digits long, and starts with an E. The second is twenty-two digits long, and starts with a 9. UPS tracking numbers are eighteen digits long and start with the characters 1Z.
-FedEx tracking numbers are usually twelve digits long, and DHL tracking numbers are ten digits long. Neither contain any letters.
-<p id="shipper"></p>
-</p>
-</div>
-<div id="shipDiv">
-  <a id="shipLink" href=""> </a>
-</div>
-
-
-<div class="fedex">
-  <div id="image1">
-   <img class="company" src="assets/images/fedex.png">
- </div>
-
-
-
- <div class="upsimage">
-  <div id="image2">
-   <img class="company" src="assets/images/upsimage.jpg">
- </div>
-
-
- <div class="uspsimage">
-  <div id="image3">
-  <img class="company" src="assets/images/usps.jpg">
-</div>
-
-<div class="dhlimage">
-  <div id="image4">
-    <img class="company" src="assets/images/dhl.png">
+    <h2>Getting you what you need, when you need it.</h2>
   </div>
 
-</div>
+  <div class="form">
+    <form id="TN1">
+      <input type="text" placeholder="Enter Your Tracking Number" id="track">
+      </br>
+      </br>
+      <button type="button" class="post">Submit</button>
+    </form>
+  </div>
+  <div id="Info">
+    <!-- <p>The code as written accepts USPS numbers, DHL tracking numbers, UPS tracking numbers, and FedEx numbers. USPS numbers come in two formats. The first is thirteen digits long, and starts with an E. The second is twenty-two digits long, and starts with
+      a 9. UPS tracking numbers are eighteen digits long and start with the characters 1Z. FedEx tracking numbers are usually twelve digits long, and DHL tracking numbers are ten digits long. Neither contain any letters. -->
+    <p id="shipper"></p>
+    </p>
+  </div>
+  <div id="shipDiv">
+    <a id="shipLink" href=""> </a>
+  </div>
+<!-- 
+  <div class="images">
+    <div id="image1">
+      <img class="company" src="assets/images/fedex.png">
+    </div>
+      <div id="image2">
+        <img class="company" src="assets/images/upsimage.jpg">
+      </div>
+        <div id="image3">
+          <img class="company" src="assets/images/usps.jpg">
+        </div>
+        <div id="image4">
+            <img class="company" src="assets/images/dhl.png">
+          </div>
 
+        </div> -->
 
-</div>
+    <!-- <div id="Info">
+        <p> The code as written accepts USPS numbers, DHL tracking numbers, UPS tracking numbers, and FedEx numbers. USPS numbers come in two formats. The first is thirteen digits long, and starts with an E. The second is twenty-two digits long, and starts
+          with a 9. UPS tracking numbers are eighteen digits long and start with the characters 1Z. FedEx tracking numbers are usually twelve digits long, and DHL tracking numbers are ten digits long. Neither contain any letters.
+      </div> -->
+    <!--
+<footer id="moment">
+      <script src="assets/javascript/moment.js"></script>
+      <script
+moment().format('MMMM Do YYYY, h:mm:ss a');
+</script>
+</footer> -->
 
-<div id="Info">
-<p> The code as written accepts USPS numbers, DHL tracking numbers, UPS tracking numbers, and FedEx numbers. USPS numbers come in two formats. The first is thirteen digits long, and starts with an E. The second is twenty-two digits long, and starts with a 9. UPS tracking numbers are eighteen digits long and start with the characters 1Z.
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
 
-FedEx tracking numbers are usually twelve digits long, and DHL tracking numbers are ten digits long. Neither contain any letters.
-</div>
-
-
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
- <script src="assets/javascript/app.js"></script>
 
 
 

@@ -16,7 +16,7 @@ $(document).ready(function() {
         // if length is wrong, it will trigger this alert
       } else if (tracknum[1] === "Z" && tracknum.length == 18) {
         baseLink="https://wwwapps.ups.com/WebTracking/track?track=yes&trackNums=";
-        carrier="USPS";
+        carrier="UPS";
         // If the first letter is I, it will check to see if the length is 18. If it is, it will open UPS in a new tab.
       } else if (tracknum[1] === "Z" && tracknum.length != 18) {
         alert("Invalid UPS Tracking Number");
@@ -45,7 +45,14 @@ $(document).ready(function() {
         console.log("Don't forget the else!");
       }
     }
-    $("#shipper").text("You're package is being shipped by " + carrier + ".");
-    $("#shipLink").attr("href", baseLink + tracknum).text("Track your " + carrier + " package here.")
+    $("#shipper").text("Your package is being shipped by " + carrier + ".");
+    $("#shipLink").attr({href:baseLink + tracknum,
+target:"_blank"}).text("Track your " + carrier + " package here.")
   });
+// //
+// //   $('A[rel="external"]')
+// // .click( function() {
+// // window.open( $(this).attr('href') );
+// return false;
+// });
 });
